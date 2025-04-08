@@ -1,0 +1,17 @@
+{
+  "name": "my-token-fx-module",
+  "title": "Token FX Module",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "scripts": [
+    "scripts/token-fx.js"
+  ],
+  "styles": [
+    "styles/token-fx.css"
+  ],
+  "templates": [
+    "templates/token-fx-config.html"
+  ]
+}

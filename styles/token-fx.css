@@ -1,0 +1,13 @@
+/* Make sure the FX pane looks like other tabs */
+.tab[data-tab="fx"] {
+    display: none;
+}
+.tab[data-tab="fx"].active {
+    display: block;
+}
+
+/* Highlight the FX nav item when active */
+.tabs.navtabs a.item[data-tab="fx"].active {
+    background-color: var(--color-accent);
+    color: #fff;
+}
